@@ -1,6 +1,32 @@
-body {
-    padding-top: px;
+.cloud-bg { 
+     background-image: url("images/skyclouds-340.jpg") !important;
+     background-size:cover;
+    }
+
+h1 {
+    font-family: 'Shrikhand', cursive;
 }
+
+p {
+    font-family: 'Shrikhand', cursive;
+}
+
+td {
+    font-family: 'Shrikhand', cursive;
+}
+
+div.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid #73AD21;
+}
+
+div.row {
+    position: center;
+}
+
 
 .em-text {
     
@@ -17,6 +43,11 @@ section {
     border-radius: 5%;
 }
 
+.center-block {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media (max-width: 500px) {
     .jumbotron {height: 450px !important;
 background-size: 100% 100%;
@@ -29,3 +60,5 @@ text-align: center;
     .jumbotron img.app-btn {
 width: 30%;}
 }
+
+
