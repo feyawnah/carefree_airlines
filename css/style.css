@@ -1,7 +1,11 @@
 .cloud-bg { 
-     background-image: url("images/skyclouds-340.jpg") !important;
+     background-image: url("../images/skyclouds-340.jpg") !important;
      background-size:cover;
     }
+.row {
+    display:flex;
+    flex-wrap:wrap;
+}
 
 h1 {
     font-family: 'Shrikhand', cursive;
